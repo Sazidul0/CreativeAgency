@@ -1,4 +1,5 @@
 import React from 'react';
+import HomeButton from '../Shared/HomeButton';
 
 const ContactUs = () => {
     return (
@@ -21,7 +22,7 @@ const ContactUs = () => {
                                 <textarea placeholder='Your message' name="message" id="" cols="10" rows="10" class="border p-4 rounded-lg"></textarea>
                             </div>
                             <div class=" mt-6">
-                                <button class="btn btn-dark">Send</button>
+                                <HomeButton value='Send'></HomeButton>
                             </div>
                         </div>
                     </div>

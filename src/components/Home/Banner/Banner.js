@@ -1,19 +1,20 @@
 import React from 'react';
 import './Banner.css'
 import bannerImg from '../../../images/logos/Frame.png'
+import HomeButton from '../../Shared/HomeButton';
 
 const Banner = () => {
     return (
         <div style={{ backgroundColor: '#FBD062' }} className='banner-top-container'>
             <div class="hero pb-44">
                 <div class="hero-content flex-col lg:flex-row-reverse ">
-                    <img src={bannerImg} class="w-1/2 rounded-lg shadow-2xl" />
+                    <img src={bannerImg} class="w-1/2 rounded-lg shadow-2xl" alt='' />
                     <div className='mr-44 text-container'>
                         <h1 class="text-5xl font-bold">Let’s Grow Your
                             Brand To The
                             Next Level</h1>
                         <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-dark">Hire us</button>
+                        <HomeButton value="Hire us"></HomeButton>
                     </div>
                 </div>
 

@@ -31,7 +31,15 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div class="navbar-end mr-5">
-                    <Link to='/login' className='btn btn-sm'>Login</Link>
+                    <Link to='/login'
+                        style={{
+                            backgroundColor: 'black',
+                            color: "white",
+                            borderRadius: '6px',
+                            padding: '6px 35px',
+                            fontWeight: '600'
+                        }}
+                        className=''>Login</Link>
                 </div>
             </div>
         </div>
