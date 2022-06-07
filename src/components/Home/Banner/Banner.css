@@ -1,0 +1,33 @@
+.banner-bottom {
+    position: relative;
+}
+
+.svg-item {
+    position: absolute;
+    top: -340px;
+    left: 0%;
+    border-bottom: 120px solid white;
+}
+
+
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 576px) {
+    .svg-item {
+        top: -180px;
+    }
+
+    .text-container {
+        margin: 0;
+        text-align: ;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .svg-item {
+        top: -240px;
+    }
+}
